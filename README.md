@@ -1,6 +1,6 @@
 # `eslint-config-stimulus`
 
-[![npm version](https://img.shields.io/npm/v/eslint-plugin-stimulus.svg?style=flat)](https://npmjs.org/package/eslint-plugin-stimulus 'View this project on npm')
+[![npm version](https://img.shields.io/npm/v/eslint-config-stimulus.svg?style=flat)](https://npmjs.org/package/eslint-config-stimulus 'View this project on npm')
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ESLint plugin for [Stimulus Controllers](https://stimulus.hotwired.dev/).
@@ -10,7 +10,7 @@ ESLint plugin for [Stimulus Controllers](https://stimulus.hotwired.dev/).
 Assuming you already have ESLint installed, run:
 
 ```sh
-npm install eslint-plugin-stimulus --save-dev
+npm install eslint-config-stimulus --save-dev
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ npm install eslint-plugin-stimulus --save-dev
 Then extend the recommended eslint config:
 
 ```js
-import {configs} from 'eslint-plugin-stimulus';
+import {configs} from 'eslint-config-stimulus';
 
 export default [
   configs.recommended,
