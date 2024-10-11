@@ -13,6 +13,9 @@
   "engines": {
     "node": ">=18"
   },
+  "repository": {
+    "url": "https://github.com/koddsson/eslint-config-stimulus"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
