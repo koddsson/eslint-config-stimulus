@@ -1,3 +1,5 @@
+import difference from "set.prototype.difference";
+
 export default {
   meta: {
     type: "problem",
@@ -44,7 +46,7 @@ export default {
           });
         },
       "Program:exit": () => {
-        const unseenTargets = new Set(targets.keys()).difference(seenTargets);
+        const unseenTargets = difference(new Set(targets.keys()), seenTargets);
         for (const target of unseenTargets) {
           const node = targets.get(target);
           context.report({
