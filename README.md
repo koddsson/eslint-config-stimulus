@@ -10,7 +10,6 @@ ESLint plugin for [Stimulus Controllers](https://stimulus.hotwired.dev/).
 Assuming you already have ESLint installed, run:
 
 ```sh
-# npm
 npm install eslint-plugin-stimulus --save-dev
 ```
 
