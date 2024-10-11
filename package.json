@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-stimulus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && mocha --no-colors src/test/**/*.test.js"
+  },
+  "peerDependencies": {
+    "eslint": ">= 9"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^9.12.0",
+    "eslint-plugin-eslint-plugin": "^6.2.0",
+    "eslint-plugin-n": "^17.11.1",
+    "globals": "^15.11.0",
+    "mocha": "^10.7.3"
+  }
+}
