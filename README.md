@@ -1,6 +1,6 @@
 # `eslint-config-stimulus`
 
-[![npm version](https://img.shields.io/npm/v/eslint-config-stimulus.svg?style=flat)](https://npmjs.org/package/eslint-config-stimulus 'View this project on npm')
+[![npm version](https://img.shields.io/npm/v/eslint-config-stimulus.svg?style=flat)](https://npmjs.org/package/eslint-config-stimulus "View this project on npm")
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ESLint plugin for [Stimulus Controllers](https://stimulus.hotwired.dev/).
@@ -18,11 +18,9 @@ npm install eslint-config-stimulus --save-dev
 Then extend the recommended eslint config:
 
 ```js
-import {configs} from 'eslint-config-stimulus';
+import stimulus from "eslint-config-stimulus";
 
-export default [
-  configs.recommended,
-];
+export default [stimulus.configs.recommended];
 ```
 
 ## Supported Rules
