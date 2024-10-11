@@ -13,9 +13,13 @@ const recommended = {
   plugins: {
     stimulus: plugin,
   },
-  "unused-targets": "error",
+  rules: {
+    "stimulus/unused-targets": "error",
+  },
 };
 
-export const configs = {
-  recommended,
+export default {
+  configs: {
+    recommended,
+  },
 };
