@@ -14,9 +14,14 @@
     "node": ">=18"
   },
   "repository": {
-    "url": "https://github.com/koddsson/eslint-config-stimulus"
+    "url": "git+https://github.com/koddsson/eslint-config-stimulus.git"
   },
-  "keywords": ["rails", "stimulus", "eslint", "hotwire"],
+  "keywords": [
+    "rails",
+    "stimulus",
+    "eslint",
+    "hotwire"
+  ],
   "author": "Kristján Oddsson <hi@koddsson.com>",
   "license": "MIT",
   "description": "",
