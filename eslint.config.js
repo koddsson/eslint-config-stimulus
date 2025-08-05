@@ -5,9 +5,9 @@ import eslintPlugin from "eslint-plugin-eslint-plugin";
 export default [
   js.configs.recommended,
   nodePlugin.configs["flat/recommended-module"],
-  eslintPlugin.configs["flat/recommended"],
+  eslintPlugin.configs.recommended,
   {
-    "rules": {
+    rules: {
       "n/no-extraneous-import": "off",
       "n/no-unpublished-import": "off",
     },
