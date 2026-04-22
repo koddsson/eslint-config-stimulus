@@ -26,6 +26,7 @@
   "license": "MIT",
   "description": "",
   "dependencies": {
+    "@eslint/js": "^10.0.1",
     "set.prototype.difference": "^1.1.6"
   },
   "devDependencies": {
